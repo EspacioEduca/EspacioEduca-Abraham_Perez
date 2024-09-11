@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://1.bp.blogspot.com/-wiFzpDUs_5Y/ToA8saX48CI/AAAAAAAABJs/CsdgGi9oXOY/s1600/45444-think_man_ever_develope_technology_control_weather_we.jpg);
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    height: 100vh; 
+}
+
+.box {
+    background-color: rgba(240, 248, 255, 0.65);
+    backdrop-filter: brightness(70%);
+    width: 60%;
+    padding: 10%;
+    border-radius: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+span {
+    font-size: 18px;
+    padding-left: 20px;
+    color: rgb(45, 45, 45);
+}
+
+h2{
+    margin-top: 5px;
+}
